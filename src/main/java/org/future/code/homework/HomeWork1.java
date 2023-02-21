@@ -36,6 +36,21 @@ public class HomeWork1 {
      */
     public static class Student {
         // Напиши здесь свою реализацию класса Student
+        import java.util.Scanner;
+
+public class Students {
+    private String name;
+    private Integer grade;
+    private Integer age;
+    public Students() {
+
+    }
+    public Students(String name, int grade, int age) {
+        this.name = name;
+        this.grade = grade;
+        this.age = age;
+    }
+
     }
 
     public static class Teacher {
